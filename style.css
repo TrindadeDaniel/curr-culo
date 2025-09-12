@@ -1,0 +1,104 @@
+/* Título principal */
+h1 {
+    color: rgb(139, 135, 119); /* Cor do texto do título */
+}
+
+/* Imagem de perfil */
+img {
+    width: 120px; /* Largura da imagem */
+    border-radius: 15px; /* Bordas arredondadas */
+    margin-left: auto; /* Alinha à direita no cabeçalho */
+    box-shadow: 0 2px 12px rgba(0,0,0,0.15); /* Sombra leve */
+    display: block; /* Exibe como bloco */
+}
+
+/* Corpo da página */
+body {
+    background-color: rgb(3, 34, 65); /* Cor de fundo da página */
+}
+
+/* Cabeçalho principal */
+.cabecalho {
+    background-color: rgb(3, 47, 92); /* Cor de fundo do cabeçalho */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Fonte do cabeçalho */
+    display: flex; /* Layout flexível */
+    align-items: center; /* Alinha verticalmente */
+    gap: 32px; /* Espaço entre elementos */
+    padding: 24px 32px 24px 24px; /* Espaçamento interno */
+    justify-content: space-between; /* Espaço entre info e imagem */
+}
+
+/* Informações do cabeçalho */
+.cabecalho-info {
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Direção em coluna */
+    gap: 12px; /* Espaço entre elementos */
+}
+
+/* Menu do cabeçalho */
+.cabecalho-menu ul {
+    list-style: none; /* Remove marcadores */
+    padding: 0; /* Remove preenchimento */
+    margin: 0; /* Remove margem */
+    display: flex; /* Layout flexível */
+    gap: 18px; /* Espaço entre links */
+}
+.cabecalho-menu a {
+    color: rgb(139, 135, 119); /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado */
+    font-weight: bold; /* Negrito */
+    font-size: 1rem; /* Tamanho da fonte */
+    transition: color 0.2s; /* Transição de cor ao passar mouse */
+}
+.cabecalho-menu a:hover {
+    color: #fff; /* Cor branca ao passar mouse */
+}
+
+/* Conteúdo principal */
+.Conteudos,
+.Experiencias,
+.habilidades,
+.Objetivos,
+.Resumo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Fonte das seções */
+    color: rgb(139, 135, 119); /* Cor do texto das seções */
+}
+
+/* Título das seções */
+.titulo {
+    color: rgb(139, 135, 119); /* Cor do texto do título */
+    background-color: rgb(3, 47, 92); /* Cor de fundo do título */
+}
+
+/* Bordas para experiências */
+.MEETING,
+.NORPAVE {
+    border: 2px solid rgb(139, 135, 119); /* Borda sólida */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 6px 12px; /* Espaçamento interno */
+    display: inline-block; /* Exibe como bloco em linha */
+}
+
+/* Seções principais */
+section {
+    padding: 20px; /* Espaçamento interno */
+    border: 2px solid rgb(139, 135, 119); /* Borda sólida */
+    border-radius: 15px; /* Bordas arredondadas */
+    background-color: rgb(3, 47, 92); /* Cor de fundo */
+    max-width: 800px; /* Largura máxima */
+    box-sizing: border-box; /* Inclui borda no tamanho */
+    margin: 24px 0 24px 24px; /* Espaço entre seções e alinhamento à esquerda */
+}
+
+/* Rodapé */
+#rodape {
+    background-color: rgb(3, 47, 92); /* Cor de fundo do rodapé */
+    color: rgb(139, 135, 119); /* Cor do texto do rodapé */
+    text-align: center; /* Centraliza texto */
+    border: 2px solid rgb(139, 135, 119); /* Borda sólida */
+    border-radius: 8px; /* Bordas arredondadas */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Fonte do rodapé */
+    position: relative; /* Posição relativa */
+    bottom: 0; /* Alinha ao fundo */
+    width: 100%; /* Largura total */
+}
